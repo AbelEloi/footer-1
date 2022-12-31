@@ -64,7 +64,7 @@
     border: none;
     padding-left: 0.5rem;
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0px;
 }
 
 #footer-email::placeholder 
@@ -95,7 +95,7 @@
 {
     .footer
     {
-        height: 50vh;
+        height: 60vh;
     }
 
     .footer-email-form
@@ -109,6 +109,11 @@
     .footer
     {
         height: 50vh;
+    }
+
+    .footer-1
+    {
+        display: none;
     }
 
     .footer-email-form
@@ -152,6 +157,6 @@
 
     .footer-email-form
     {
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
 }
